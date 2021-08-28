@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: rgba(255, 235, 205, 0.918);
+            font-family: 'Hind Siliguri', sans-serif;
+            font-weight: bolder;
+        }
+
+        body {
+            background-image: url('gym3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 60px 20px 60px;
+        }
+
+        header img {
+            height: 17vh;
+            width: 8vw;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1.22rem;
+        }
+
+        header ul {
+            display: flex;
+        }
+
+        header ul li {
+            list-style: none;
+            margin: 15px;
+            font-size: 1.5rem;
+        }
+
+        .left button {
+            font-size: 1.2rem;
+            margin: 15px;
+            height: 5vh;
+            width: 6vw;
+            border-radius: 3px;
+            font-weight: bolder;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 40px;
+
+        }
+
+        .left button:hover {
+            background-color: grey;
+            border: 2px solid black;
+
+        }
+
+        .content {
+            border: 2px solid white;
+            display: flex;
+            flex-direction: column;
+            height: 60vh;
+            width: 35vw;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 60px;
+            border-radius: 8px;
+        }
+
+        .box {
+            height: 5vh;
+            width: 23vw;
+            margin: 10px;
+            border-radius: 5px;
+            border: 2px solid black;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .content button {
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 7px;
+
+        }
+
+
+        .content button:hover {
+            background-color: grey;
+            border: 2px solid black;
+
+        }
+
+
+
+
+        footer {
+
+            height: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            /* color: white; */
+            background-color: black;
+            justify-content: space-evenly;
+            padding: 30px;
+
+        }
+
+        footer #foot-box {
+            /* height: 20vh; */
+            /* width: 20vw; */
+            /* border: 2px solid white; */
+            font-family: 'Heebo', sans-serif;
+            /* margin: 50px; */
+
+        }
+
+        #foot-box h3 {
+            font-weight: bolder;
+            
+        }
+
+        #foot-box li {
+            list-style: none;
+            margin: 10px;
+        }
+
+        #foot-box li a {
+            text-decoration: none;
+            font-family: 'Heebo', sans-serif;
+       
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="lobo">
+            <img src="lobo.jpg" alt="">
+            <p>Royston Fitness</p>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact us</li>
+        </ul>
+
+        <div class="left">
+            <button>Call us </button>
+            <button>Email us</button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="content">
+            <h1>Join the best gym</h1>
+            <input class='box' type="text" placeholder="Enter your name">
+            <input class='box' type="text" placeholder="Enter your age">
+            <input class='box' type="text" placeholder="Enter your gender">
+            <input class='box' type="text" placeholder="Enter your locality">
+
+
+            <button class="box">Submit </button>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+
+        <ul id='foot-box'>
+            <h3>COMPANY</h3>
+            <li><a href="">About us</a></li>
+            <li><a href="">Patnership</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+        </ul>
+
+
+        <ul id='foot-box'>
+            <h3>DEVELOPERS</h3>
+            <li><a href="">Forum</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Open source</a></li>
+            <li><a href=""></a></li>
+        </ul>
+
+
+
+        <ul id='foot-box'>
+            <h3>SOCIAL</h3>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">Github</a></li>
+        </ul>
+
+
+
+        <ul id='foot-box'>
+            <h3>RESOURCES</h3>
+            <li><a href="">Using Hologram</a></li>
+            <li><a href="">Docs</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Supported Hardware</a></li>
+        </ul>
+
+
+
+
+
+    </footer>
+</body>
+
+</html>
